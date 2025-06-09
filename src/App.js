@@ -38,7 +38,7 @@ export default function App() {
             <p>🛏️ ${n.nightlyRate} avg nightly rental</p>
             <p>🚶 Walkability: {n.walkability}/100</p>
             <p>🌴 Vibe: {n.vibe}</p>
-            <a href={n.link} target="_blank" rel="noopener noreferrer">Explore {n.name}</a>
+            <a href={n.link}>Explore {n.name}</a>
           </div>
         ))}
       </div>
