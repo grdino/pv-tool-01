@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 const neighborhoods = [
   { name: "Zona Romántica", price: 3200, beachDistance: 5, nightlyRate: 220, walkability: 90, vibe: "Trendy/Nightlife", link: "https://www.searchpv.com/condos-for-sale-zona-romantic/" },
-  { name: "Marina Vallarta", price: 2700, beachDistance: 10, nightlyRate: 180, walkability: 80, vibe: "Upscale/Quiet", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/marina-vallarta/" },
+  { name: "Marina Vallarta", price: 2700, beachDistance: 10, nightlyRate: 180, walkability: 85, vibe: "Upscale/Quiet", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/marina-vallarta/" },
   { name: "Versalles", price: 2100, beachDistance: 20, nightlyRate: 140, walkability: 90, vibe: "Growing/Culinary District", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/versalles/" },
   { name: "5 de Diciembre", price: 2500, beachDistance: 8, nightlyRate: 160, walkability: 75, vibe: "Local/Urban", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/5-de-diciembre/" },
   { name: "Conchas Chinas", price: 4000, beachDistance: 3, nightlyRate: 280, walkability: 60, vibe: "Luxury/Retreat", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/lower-conchas-chinas/" },
   { name: "Alta Vista", price: 2400, beachDistance: 12, nightlyRate: 150, walkability: 78, vibe: "Quiet/Local Charm", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/alta-vista/" },
-  { name: "Amapas", price: 3500, beachDistance: 6, nightlyRate: 200, walkability: 82, vibe: "Upscale/Tranquil", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/amapas/" }
+  { name: "Amapas", price: 3500, beachDistance: 6, nightlyRate: 200, walkability: 80, vibe: "Upscale/Tranquil", link: "https://www.searchpv.com/areas-and-neighborhoods-puerto-vallarta/amapas/" }
 ];
 
 export default function App() {
