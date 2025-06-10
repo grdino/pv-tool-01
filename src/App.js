@@ -11,7 +11,7 @@ const neighborhoods = [
 ];
 
 export default function App() {
-  const [maxPrice, setMaxPrice] = useState(375);
+  const [maxPrice, setMaxPrice] = useState(372);
 
   const filtered = neighborhoods.filter(n => n.price <= maxPrice);
 
