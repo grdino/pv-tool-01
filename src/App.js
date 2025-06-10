@@ -34,7 +34,7 @@ export default function App() {
         {filtered.map((n) => (
           <div key={n.name} className="card">
             <h2>{n.name}</h2>
-            <p>💰 ${n.price} per m²</p>
+            <p>💰 ${n.price} per Ft²</p>
             <p>🏖️ {n.beachDistance} min walk to beach</p>
             <p>🛏️ ${n.nightlyRate} avg nightly rental</p>
             <p>🚶 Walkability: {n.walkability}/100</p>
