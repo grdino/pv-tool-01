@@ -23,7 +23,7 @@ export default function App() {
       <input
         type="range"
         min="2000"
-        max="4500"
+        max="4000"
         step="100"
         value={maxPrice}
         onChange={e => setMaxPrice(Number(e.target.value))}
